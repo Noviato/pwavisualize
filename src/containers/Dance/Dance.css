@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.orientation {
+    /* position: absolute; */
+    /* transform: rotate(90deg) !important; */
+    /* transform-origin: bottom left !important; */
+    /* width: 100vh !important;
+    height: 100vw !important;
+    margin-top: -100vw;
+    object-fit: fill !important;
+    z-index: 4;
+    visibility: visible; */
+    position: absolute;
+    /* transform: rotate(90deg) !important; */
+    /* transform-origin: bottom left !important; */
+    /* width: 100vh !important; */
+    /* height: 100vw !important; */
+    /* margin-top: -100vw; */
+    -o-object-fit: fill !important;
+    object-fit: fill;
+    z-index: 4;
+    visibility: visible;
+}
